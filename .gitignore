@@ -120,10 +120,7 @@ crashlytics-build.properties
 venv/*
 
 # program data files
-# data/*
-data/input/*
-!data/input/numbers_test.txt
-!data/input/numbers_names_test.txt
+data/*
 
 # csv files
 *.csv
@@ -131,6 +128,6 @@ data/input/*
 # excel files
 #*.xls
 #*.xlsx
-#
+
 # png files
 *.png
