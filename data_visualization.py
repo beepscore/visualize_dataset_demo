@@ -13,6 +13,11 @@ import matplotlib.pyplot as plt
 
 # step 1: download the data
 
+# Currently project warns
+# sys:1: DtypeWarning: Columns (11,14,19,22,25,70,73,86,87,89,90,94,97,100) have mixed types.
+# Specify dtype option on import or set low_memory=False.
+# https://codedump.io/share/7KtShbg8Ewtc/1/pandas-readcsv-lowmemory-and-dtype-options
+
 # dataframe_all = pd.read_csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
 dataframe_all = pd.read_csv("./data/pml-training.csv")
 num_rows = dataframe_all.shape[0]
