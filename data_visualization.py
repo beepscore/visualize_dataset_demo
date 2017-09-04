@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import accuracy_score
 
-# visulaize the important characteristics of the dataset
+# visualize the important characteristics of the dataset
 import matplotlib.pyplot as plt
 
 # step 1: download the data
