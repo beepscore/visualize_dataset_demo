@@ -15,7 +15,12 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 # step 1: download the data
-dataframe_all = pd.read_csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
+
+# dataframe_all = pd.read_csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
+dataframe_all = pd.read_csv("./data/pml-training.csv")
+# this file didn't work, probably it is slightly different
+# dataframe_all = pd.read_csv("./data/dataset-har-PUC-Rio-ugulino.csv")
+
 num_rows = dataframe_all.shape[0]
 
 # step 2: remove useless data
