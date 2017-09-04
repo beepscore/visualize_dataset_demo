@@ -125,6 +125,8 @@ data/*
 # csv files
 *.csv
 
+!data/pml-training.csv
+
 # excel files
 #*.xls
 #*.xlsx
