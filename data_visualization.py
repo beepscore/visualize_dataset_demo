@@ -4,9 +4,6 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-
-# fix warning, rename cross_validation to model_selection
-# https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/cross_validation.py#L39
 from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import accuracy_score
