@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 import pandas as pd
 import numpy as np
@@ -23,7 +24,7 @@ dataframe_all = dataframe_all[counter_without_nan.keys()]
 dataframe_all = dataframe_all.ix[:,7:]
 # the list of columns (the last column is the class label)
 columns = dataframe_all.columns
-print columns
+print("columns", columns)
 
 # step 3: get features (x) and scale the features
 # get x and convert it to numpy array
